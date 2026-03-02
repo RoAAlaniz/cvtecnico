@@ -1,46 +1,85 @@
-/* Reset básico */
-body {
-    font-family: Arial, sans-serif;
+/* BASICO */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-/* Contenedor general */
-header, main, footer {
-    max-width: 800px;
-    margin: auto;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2f4f7;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+/* ESTRUCTURA PRINCIPAL */
+header,
+main,
+footer {
+    max-width: 900px;
+    margin: 40px auto;
     padding: 20px;
 }
 
-/* Header */
+/* ENCABEZADO */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #1f2937;
+    color: #ffffff;
     text-align: center;
+    border-radius: 8px;
 }
 
-/* Secciones */
+header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+/* SECCIONES */
 section {
-    background-color: white;
-    margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-/* Títulos */
-h1, h2 {
-    margin-top: 0;
+h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #111827;
 }
 
-/* Lista de tecnologías */
+h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.equipo {
+    font-size: 13px;
+    color: #6b7280; 
+    margin-top: 6px;
+}
+
+.estado {
+    color: #6b7280; 
+    font-weight: 500;
+}
+
+/* LISTAS */
 ul {
-    padding-left: 20px;
+    padding-left: 18px;
 }
 
-/* Links */
+li {
+    margin-bottom: 4px;
+}
+
+/* LINKS */
 a {
-    color: blue;
+    color: #002150;
     text-decoration: none;
 }
 
@@ -48,8 +87,9 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
+    color: #6b7280;
 }
