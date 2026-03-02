@@ -38,7 +38,7 @@ Este proyecto está pensado para complementar mi perfil profesional y compartirl
 
 Podés ver el proyecto funcionando acá:  
 
-👉 https://RoAAlaniz.github.io/cvtecnico/
+👉 https://roaalaniz.github.io/cvtecnico/
 
 ---
 
